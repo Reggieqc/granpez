@@ -1,0 +1,97 @@
+/*-------------------------------
+		3.-LAYOUT
+--------------------------------*/
+
+
+
+/*-------------------------------------
+--------------- ADMIN ----------------*/
+
+
+/*----------- ATRIBUTOS ------------- */
+
+//*******************ANIMATION angular-js*******************//
+*:focus {
+outline: none;
+}
+.my-repeat-animation.ng-enter,
+ .my-repeat-animation.ng-leave,
+ .my-repeat-animation.ng-move {
+   -webkit-transition: 0.5s linear all;
+   transition: 0.5s linear all;
+   position:relative;
+ }
+
+ .my-repeat-animation.ng-enter {
+   left:-10px;
+   opacity:0;
+ }
+ .my-repeat-animation.ng-enter.ng-enter-active {
+   left:0;
+   opacity:1;
+ }
+
+ .my-repeat-animation.ng-leave {
+   left:0;
+   opacity:1;
+ }
+ .my-repeat-animation.ng-leave.ng-leave-active {
+   left:-10px;
+   opacity:0;
+ }
+
+ .my-repeat-animation.ng-move {
+   opacity:0.5;
+ }
+ .my-repeat-animation.ng-move.ng-move-active {
+   opacity:1;
+ }
+// ***************END ANIMATION*******************//
+
+.home{
+	padding: 0 30px;
+	iframe{
+		width: 100%;
+		height: 100%;
+		margin:auto;
+
+	}
+	#background-video {
+        background-image: url('../img/background-granpez.jpg');
+        background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		margin:auto;
+		margin: 20px auto;
+		width: 100%;
+		height: 70vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	#vidwrap {
+        background: url('../img/play.svg') no-repeat center;
+        overflow:hidden;
+        background-repeat: no-repeat;
+		background-color:rgba(0, 0, 0, 0.5);
+		width: 2500px;
+		height:100%;
+
+        cursor:pointer;
+		.caca{
+			position: absolute;
+			top: 30%;
+			right:27%;
+			img{
+				width:250px;
+			}
+		}
+	}
+}
+
+.productos{
+	background: $background-color;
+}

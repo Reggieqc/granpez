@@ -1,0 +1,33 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+                                
+	Nicolas Pisani
+
+	nico@wcanvas.com
+
+	www.wcanvas.com
+
+	Vicente Lopez, Buenos Aires, Argentina
+
+# THANKS
+
+    
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    
+
+	Last update: YYYY/MM/DD 
+
+	                            
+	Standards: HTML5, CSS3, PHP, Apache Server Configs, 
+
+	                            
+	Components: jQuery, Bootstrap, SASS, Modernizr, Normalize.css, Require.js
+
+	                            
+	Software: SublimeText2, Illustrator, Sketch.
