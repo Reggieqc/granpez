@@ -25,7 +25,7 @@
 	<body>
 		<header>
 			<nav>
-				<a href="#" class="navbar-brand"><img src="../styles/img/granpez-logocompleto.svg" alt=""></a>
+				<a href="index.html" class="navbar-brand"><img src="../styles/img/granpez-logocompleto.svg" alt=""></a>
 				<ul class="tabs">
 					<li><a href="quienes-somos.html">quienes somos</a></li>
 					<li class="popo"><a href="productos.html">productos</a></li>
@@ -41,16 +41,26 @@
 			</nav>
 		</header>
 		<div class="main-container">
-			<div class="home">
+			<div class="quienes-somos">
 				<main>
-					<div id="background-video">
-				        <div onclick="play();" id="vidwrap">
-				        	<div class="caca">
-				        		<img src="../styles/img/granpez-logo.png" alt="">
-				        	</div>
-				        </div>
-				    </div>
-    			<script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = '<iframe width="1000" height="1000" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allowfullscreen></iframe>';}</script>
+					<div class="row">
+						<div class="col-md-12 quienes-info">
+							<div class="col-md-10">
+								<p>Gran Pez es una nueva etapa en la vida de nuestra <br>
+									productora integral de contenidos, es una ilusión de <br>
+									contar historias, es una narrativa moderna, es el <br>
+									entre	el archivo más grande de la television argentina <br>
+									con las ideas más innovadoras para todas las <br>
+									plataformas existentes, es el desafío de encontrar <br>
+									respuestas a la comunicación del presente y el futuro.
+								</p>
+							</div>
+							<div class="col-md-2 text-center">
+								<img src="../styles/img/granpez-logo.png" alt="">
+							</div>
+
+						</div>
+					</div>
 				</main>
 				<footer>
 
@@ -107,15 +117,6 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" async></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
-
-		<script>
-			$(".popo").hover(function(){
-				$('.dropdown-menu').show();
-			})
-			$(".dropdown-menu").mouseleave(function(){
-				$('.dropdown-menu').hide();
-			})
-		</script>
 
 	</body>
 </html>

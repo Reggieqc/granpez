@@ -67,7 +67,10 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #68C9D5; }
+  color: black; }
+
+li:hover {
+  background: #C5C7C9; }
 
 #page-loader {
   display: none; }
@@ -84,9 +87,7 @@ h2 {
 
 p {
   font-family: sans-serif;
-  line-height: 26px;
-  margin-bottom: 40px;
-  margin-top: 20px; }
+  line-height: 26px; }
 
 /*---COLORS----*/
 .white {
@@ -505,16 +506,34 @@ nav {
   nav .navbar-brand img {
     width: 400px;
     margin-left: 8%; }
-  nav ul {
+  nav .tabs {
     display: inline-block; }
-    nav ul li {
+    nav .tabs li {
       padding: 30px 40px;
       display: inline-block; }
-    nav ul li:nth-child(2) {
-      border-left: 1px solid #ffffff; }
-    nav ul li:nth-child(3) {
+    nav .tabs li:nth-child(2) {
+      border-left: 1px solid #ffffff;
+      margin-right: -6px; }
+    nav .tabs li:nth-child(3) {
       border-right: 1px solid #ffffff;
       border-left: 1px solid #ffffff; }
+
+.dropdown-menu {
+  top: 100px;
+  background: grey;
+  right: 317px;
+  left: auto;
+  background: #C5C7C9;
+  border: 0px;
+  border-radius: 0px; }
+  .dropdown-menu li {
+    display: block;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    padding: 20px 44.5px;
+    border-top: 1px solid grey; }
+    .dropdown-menu li a {
+      color: black; }
 
 .show-containers {
   background: white;
@@ -539,8 +558,15 @@ nav {
       display: inline-block; }
       .show-containers .show-container .name-show img {
         width: 100%; }
+      .show-containers .show-container .name-show .info-show p {
+        font-family: NeogreyRegular;
+        margin: 15px 0px;
+        font-size: 20px; }
+      .show-containers .show-container .name-show .info-show img {
+        width: 52px;
+        vertical-align: middle; }
     .show-containers .show-container .preview-show {
-      margin-bottom: 90px;
+      margin-bottom: 70px;
       display: inline-block; }
       .show-containers .show-container .preview-show img {
         width: 100%; }
@@ -569,7 +595,25 @@ nav {
   .show-containers .show-container:hover {
     top: -30px; }
   .show-containers .cienvh {
-    height: 100%; }
+    height: 100%;
+    -webkit-transition-property: height;
+    -webkit-transition-duration: 2s; }
+
+.modulo-show-plus-info .show-description {
+  margin-left: 35px;
+  margin-bottom: 30px; }
+.modulo-show-plus-info .more-info-show {
+  margin-bottom: 70px; }
+  .modulo-show-plus-info .more-info-show .premios {
+    margin-left: 200px; }
+  .modulo-show-plus-info .more-info-show p:first-child {
+    margin-bottom: 20px; }
+  .modulo-show-plus-info .more-info-show p:last-child {
+    margin-top: 20px; }
+  .modulo-show-plus-info .more-info-show img {
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 15px; }
 
 .show-containerhover, .cienvhhover {
   top: 0px; }
@@ -648,5 +692,41 @@ nav {
 
 .productos {
   background: #061b28; }
+  .productos .cocinando .show-description p {
+    margin-bottom: 30px; }
+
+.clientes .main-container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+.clientes .contenedor-logos {
+  margin: auto;
+  margin-bottom: 80px; }
+.clientes .logos, .clientes .clientes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+
+.quienes-somos {
+  padding: 0 40px; }
+  .quienes-somos p {
+    font-family: NeogreyRegular;
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 40px; }
+  .quienes-somos .quienes-info {
+    padding-right: 80px;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/background-granpez.jpg"); }
+    .quienes-somos .quienes-info img {
+      width: 200px; }
 
 /*# sourceMappingURL=main.css.map */

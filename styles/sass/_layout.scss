@@ -94,4 +94,56 @@ outline: none;
 
 .productos{
 	background: $background-color;
+	.cocinando{
+		.show-description{
+			p{
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+
+.clientes{
+	.main-container{
+		height: 70vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.contenedor-logos{
+		margin: auto;
+		margin-bottom: 80px;
+	}
+	.logos,.clientes{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+}
+
+.quienes-somos{
+	padding:0 40px;
+	p{
+		font-family: $neogrey-regular;
+		font-size: 30px;
+		color:$white;
+		line-height: 40px;
+	}
+	.quienes-info{
+		padding-right:  80px;
+			height: 75vh;
+			display: flex;
+			flex-direction: row;
+			align-items:center;
+			justify-content: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-image: url('../img/background-granpez.jpg');
+			img{
+				width: 200px;
+			}
+	}
+
 }
