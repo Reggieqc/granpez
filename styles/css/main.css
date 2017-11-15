@@ -113,70 +113,7 @@ p {
 /*-------------------------------
 		1.-ELEMENTS
 --------------------------------*/
-/*---------BTN---------*/
-.btn, .btn-blue, .btn-grey, .btn-danger, .btn-border {
-  background-color: #68C9D5;
-  color: white;
-  font-size: 14px;
-  padding: 10px 26px;
-  border-radius: 3px;
-  border: 2px solid #68C9D5; }
-  .btn:hover, .btn-blue:hover, .btn-grey:hover, .btn-danger:hover, .btn-border:hover {
-    transition: all 0.3s;
-    opacity: 0.8; }
-
-.btn-blue {
-  background-color: #68C9D5;
-  border: 2px solid #68C9D5; }
-
-.btn-grey {
-  background-color: #9B9B9B;
-  border: 2px solid #9B9B9B; }
-
-.btn-danger {
-  background-color: #D0011B;
-  border: 2px solid #D0011B; }
-
-.btn-border {
-  background-color: #ffffff;
-  color: #68C9D5;
-  font-size: 15px;
-  padding: 10px 20px;
-  border: 2px solid #68C9D5; }
-  .btn-border .fa {
-    margin-right: 10px; }
-
-.btn-back i, .btn-foward i, .btn-down i, .btn-down-home i, .btn-up-home i, .btn-trash i {
-  color: #68C9D5;
-  vertical-align: middle;
-  border: 3px solid #68C9D5;
-  border-radius: 100%;
-  padding: 7px; }
-  .btn-back i:hover, .btn-foward i:hover, .btn-down i:hover, .btn-down-home i:hover, .btn-up-home i:hover, .btn-trash i:hover {
-    transition: all 0.3s;
-    opacity: 0.8; }
-
-.btn-foward i {
-  transform: rotate(180deg); }
-
-.btn-down i {
-  transform: rotate(270deg); }
-
-.btn-down-home, .btn-up-home {
-  cursor: pointer; }
-  .btn-down-home i, .btn-up-home i {
-    border: 1px solid transparent;
-    color: #878A8D;
-    box-shadow: 0px 4px 9px -5px #878A8D; }
-
-.btn-trash i {
-  color: #4286F5;
-  vertical-align: middle;
-  border: 3px solid #4286F5;
-  border-radius: 100%;
-  padding: 7px;
-  font-size: 24px; }
-
+/*---------BTN- IF WE NEED IT---------*/
 /*-------END BTN-------*/
 /*-----INPUTS------*/
 .search-div {
@@ -683,11 +620,11 @@ nav {
     width: 2500px;
     height: 100%;
     cursor: pointer; }
-    .home #vidwrap .caca {
+    .home #vidwrap .granpez-logo-reel {
       position: absolute;
       top: 30%;
       right: 27%; }
-      .home #vidwrap .caca img {
+      .home #vidwrap .granpez-logo-reel img {
         width: 250px; }
 
 .productos {
